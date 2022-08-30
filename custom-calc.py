@@ -23,13 +23,13 @@
 
 # Be sure to convert your numeric values to numbers before performing math operations!
 
-print("Welcome to cube area calculator!\n")
+print("Welcome to cube volume calculator!\n")
 
 units = input("What unit would you like to use?[Inches, Centimeters, etc]: ")
 height = int(input("Please enter height, width, and length to calculate the area of a cube.\n\nHeight: "))
 width = int(input("Width: "))
 length = int(input("Length: "))
 
-area = height * width * length
+volume = height * width * length
 
-print(f"\nA cube with a height of {height} {units}, width of {width} {units}, and length of {length} {units} has an area of {area} {units}^3.")
+print(f"\nA cube with a height of {height} {units}, width of {width} {units}, and length of {length} {units} has an area of {volume} {units}^3.")
