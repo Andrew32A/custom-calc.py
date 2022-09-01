@@ -26,7 +26,7 @@
 print("Welcome to cube volume calculator!\n")
 
 units = input("What unit would you like to use?[Inches, Centimeters, etc]: ")
-height = int(input("Please enter height, width, and length to calculate the area of a cube.\n\nHeight: "))
+height = int(input("Please enter height, width, and length to calculate the volume of a cube.\n\nHeight: "))
 width = int(input("Width: "))
 length = int(input("Length: "))
 
