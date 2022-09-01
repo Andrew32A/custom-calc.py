@@ -32,4 +32,4 @@ length = int(input("Length: "))
 
 volume = height * width * length
 
-print(f"\nA cube with a height of {height} {units}, width of {width} {units}, and length of {length} {units} has an area of {volume} {units}^3.")
+print(f"\nA cube with a height of {height} {units}, width of {width} {units}, and length of {length} {units} has a volume of {volume} {units}^3.")
